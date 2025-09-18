@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+.venv/
+
+# Model artifacts / data cache
+my_model.h5
+preprocessing.pkl
+
+# Notebooks cache
+.ipynb_checkpoints/
+
+# Streamlit & OS cruft
+.streamlit/
+.DS_Store
+Thumbs.db
